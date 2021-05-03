@@ -66,6 +66,8 @@ def main(file_name):
     # draw points
     draw_data(data_points)
 
+    print(closest_pair_BF("points.csv"))
+
 
 if __name__ == '__main__':
     my_file = 'points.csv'
